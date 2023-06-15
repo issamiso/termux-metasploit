@@ -41,7 +41,7 @@ def Install():
 	except:sys.exit()
 	if what.lower().strip() != 'n':
 		print(done+'starting install ...')
-		os.system('./ .pkg_command.sh')
+		os.system('cd ~ && bash .pkg_command.sh')
 
 Install()
 	
