@@ -2,7 +2,9 @@
 metasploit install in termux without root 
 ## Download 
 ```bash
-pkg install git
+pkg update -y
+pkg upgrade -y 
+pkg install git -y
 git clone https://github.com/issamiso/Termux-Metasploit.git
 cd Termux-Metasploit
 chmod +x *
